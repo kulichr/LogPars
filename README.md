@@ -1,6 +1,6 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/cyb3rd3s/LogParsa?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/cyb3rd3s/LogParsa?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/cyb3rd3s/LogParsa?style=for-the-badge)
 # LogPars
-Log Pars is a basic linux based log parser.
+Log Pars is a basic linux based log parser written in Python.
 ## Usage
 ```
 logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
