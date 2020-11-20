@@ -12,7 +12,13 @@ logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
 ```
 ## Example of output
 ```
-
+kali@kali:~/LogPars$ sudo python3 logpars.py "password" /var/log/auth.log
+                                                                                                                                                  
+<=== Results ===>                                           
+Found: Nov 20 12:46:00 kali lightdm: gkr-pam: stashed password to try later in open session
+Found: Nov 20 12:48:05 kali sudo:     kali : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/kali/LogPars ; USER=root ; COMMAND=/usr/bin/gedit exploit.py
+Found: Nov 20 12:48:46 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali/LogPars ; USER=root ; COMMAND=/usr/bin/python logpars.py password /var/log/auth.log
+Found: Nov 20 12:48:58 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali/LogPars ; USER=root ; COMMAND=/usr/bin/python3 logpars.py password /var/log/auth.log 
 ```
 ## Requirements
 
