@@ -15,7 +15,6 @@ logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
 python3 logpars.py "incorrect password attempts" /var/log/auth.log
                                                                                                                                                   
 <=== Results ===>                                           
-Found: Nov 20 12:46:00 kali lightdm: gkr-pam: stashed password to try later in open session
 Found: Nov 20 12:48:05 kali sudo:     kali : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/kali/LogPars ; USER=root ; COMMAND=/usr/bin/gedit exploit.py
 ```
 ## Requirements
