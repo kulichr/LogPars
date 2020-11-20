@@ -12,7 +12,7 @@ logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
 ```
 ## Example of output
 ```
-kali@kali:~/LogPars$ sudo python3 logpars.py "password" /var/log/auth.log
+python3 logpars.py "incorrect password attempts" /var/log/auth.log
                                                                                                                                                   
 <=== Results ===>                                           
 Found: Nov 20 12:46:00 kali lightdm: gkr-pam: stashed password to try later in open session
