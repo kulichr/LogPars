@@ -2,6 +2,11 @@
 # LogPars
 Log Pars is a basic linux based log parser written in Python.
 ## Usage
+If you are looking for one specific word:
+```
+logpars.py [error message you are looking for] [/var/log/TARGETLOG]
+```
+If you are looking for more than one word string, use **quotation marks**:
 ```
 logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
 ```
