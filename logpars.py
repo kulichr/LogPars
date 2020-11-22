@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # Name: LogPars
 # Author: Roman Kulich @ 2020
 # Version: v1.0.0
