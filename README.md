@@ -1,6 +1,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/cyb3rd3s/LogPars?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/cyb3rd3s/LogPars?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/cyb3rd3s/LogPars?style=for-the-badge)
 # LogPars
 Log Pars is a basic linux based log parser written in Python.
+![Example of result](https://github.com/cyb3rd3s/LogPars/blob/main/logpars.png)
 ## Usage
 If you are looking for one specific word:
 ```
@@ -10,13 +11,7 @@ If you are looking for more than one word string, use **quotation marks**:
 ```
 python3 logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
 ```
-## Example of output
-```
-python3 logpars.py "incorrect password attempts" /var/log/auth.log
-                                                                                                                                                  
-<=== Results ===>                                           
-Found: Nov 20 12:48:05 kali sudo:     kali : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/kali/LogPars ; USER=root ; COMMAND=/usr/bin/gedit exploit.py
-```
+
 ## Requirements
 
 ### Python 3.8
