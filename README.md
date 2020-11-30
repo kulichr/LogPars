@@ -14,8 +14,8 @@ python3 logpars.py ["error message you are looking for"] [/var/log/TARGETLOG]
 
 ## Requirements
 
-### Python 3.8
-Whole script is written in Python 3.8., which is recommended for best functionality. Something might not work well in older versions. Python is free to download from [official website](https://www.python.org/downloads/) for all platforms.
+### Python 3
+Whole script is written in Python 3.8, which is recommended for best functionality. Something might not work well in older versions. Python is free to download from [official website](https://www.python.org/downloads/) for all platforms.
 
 ## Help & issues
 If you have any question, ideas or issues, you can report them through [Issues](https://github.com/cyb3rd3s/LogPars/issues).
