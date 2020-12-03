@@ -4,6 +4,7 @@
 # Version: v1.0.0
 
 import argparse
+import sys
 
 TGREEN =  '\033[32m'
 TWHITE = '\033[37m'
@@ -16,14 +17,19 @@ print(TGREEN + '''
 `----' `----'  `---' `-'   `-'  `-'`-' `-'`----' 
 
 ''',TWHITE)
-print(TGREEN + 'Usage: logpars.py "error message you are looking for" /var/log/TARGETLOG',TWHITE)
 
-parser = argparse.ArgumentParser(description="")
-parser.add_argument(dest='msg', help="logpars.py [error message] [target log]")
-parser.add_argument(dest='log', help="logpars.py [error message] [target log]")
+parser = argparse.ArgumentParser()
+parser.add_argument("-m", help="error message", dest='msg')
+parser.add_argument("-l", help="log file", dest='log')
 args = parser.parse_args()
-message = (args.msg)
-log = (args.log)
+message = args.msg
+log = args.log
+
+if log is None:
+    print(TRED + "Missing logfile! ==>",TWHITE + TGREEN + "Usage: python3 logpars.py -m [error message] -l [target log]",TWHITE)
+    print("")
+    sys.exit()
+
 f = open(log)
 lines = f.readlines()
 
