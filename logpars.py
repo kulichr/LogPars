@@ -37,4 +37,4 @@ print("")
 print("<=== Results ===> ")
 for line in lines:
     if line.__contains__(message):
-        print("Found: " + TRED + (line.strip()),TWHITE)
+        print(TRED + "[!]",TWHITE + (line.strip()))
