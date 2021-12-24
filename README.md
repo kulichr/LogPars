@@ -1,4 +1,4 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/cyb3rd3s/LogPars?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/cyb3rd3s/LogPars?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/cyb3rd3s/LogPars?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kulichr/LogPars?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/kulichr/LogPars?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/kulichr/LogPars?style=for-the-badge)
 # LogPars
 Log Pars is a basic linux based log parser written in Python.
 ![Example of result](https://github.com/cyb3rd3s/cyb3rd3s/blob/main/logpars_example.png)
